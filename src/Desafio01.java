@@ -18,6 +18,7 @@ public class Desafio01 {
     public static void main(String[] args) {
         int numero;
         int numeroAleatorio;
+        int nivel = 10;
         boolean op = true;
         int pontuacao=0;
         String sair;
@@ -26,16 +27,20 @@ public class Desafio01 {
             boolean op2=true;
             System.out.print("\n*************** ADIVINHE O NÚMERO - DESAFIO 01 ****************\n\n");
             while(op2){
-                numeroAleatorio= randomizandorNumerico(20);
+                numeroAleatorio= randomizandorNumerico(nivel);
                 System.out.println(numeroAleatorio);
-                System.out.printf("Escolha um Número entre 0 e 20:");
+                System.out.printf("Escolha um Número entre 0 e %d: ",nivel);
                 numero = imput.nextInt();
                 if(numero==numeroAleatorio) {
                     pontuacao += 10;
+                    nivel=15;
+
                 }else if(numero == (numeroAleatorio-1)|| numero == (numeroAleatorio+1)){
                     pontuacao+=5;
+                    nivel=12;
                 }else{
                     System.out.println("Você Perdeu!!!!");
+                    nivel =10;
                     op2=false;
                 }
             }
