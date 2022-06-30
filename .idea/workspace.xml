@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad5d834c-d1a6-4b4c-9f42-da806306a7a9" name="Changes" comment="Entrega minima e média realizada">
+    <list default="true" id="ad5d834c-d1a6-4b4c-9f42-da806306a7a9" name="Changes" comment="Acrescentado 1 nivel de dificuldade">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Desafio01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Desafio01.java" afterDir="false" />
     </list>
@@ -87,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656541688135</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Acrescentado 1 nivel de dificuldade">
+      <created>1656542628027</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656542628027</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +111,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criada a função randomizandorNumerico" />
     <MESSAGE value="Entrega minima e média realizada" />
-    <option name="LAST_COMMIT_MESSAGE" value="Entrega minima e média realizada" />
+    <MESSAGE value="Acrescentado 1 nivel de dificuldade" />
+    <option name="LAST_COMMIT_MESSAGE" value="Acrescentado 1 nivel de dificuldade" />
   </component>
 </project>
